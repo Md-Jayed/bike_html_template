@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda</title>
+    <script src="https://kit.fontawesome.com/d74772b8a3.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        .header-p{
+            color: #E0E0E0;
+        }
+        .btn-color{
+            background-color:#E76F51;
+            color: white;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .btn-color:hover{
+          background-color: white;
+          border: 1px solid #E76F51;
+          color: #E76F51;
+        }
+        .header_size{
+          font-size: 58px;
+        }
+        .card_title_custom{
+          font-size: 28px;;
+        }
+        .filled{
+          color: #E77C40;
+        }
+        .card_img{
+          width: 68%;
+        }
+        .color_happy{
+          color: #E76F51;
+        }
+        .grayscal{
+          filter: grayscale(100%);
+        }
+        .client_P{
+          color: #6C6C6C;
+        }
+        .footer_menu a{
+          text-decoration: none;
+          color: white;
+        }
+        .footer-img-1{
+          margin-top: -45px;
+        }
+        .footer-img-2{
+          margin-top: -102px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header style="background: #264653;">
+        <!-- Navbar  -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav container justify-content-end py-5">
+                      <li class="nav-item me-4 text-whith">
+                        <a class="nav-link active" aria-current="page"  href="#">Home</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="nav-link" href="#fetured_bikes">Fetured Bikes</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="nav-link" href="#latest_news" >Latest News</a>
+                      </li>
+                      <li class="nav-item me-5">
+                        <a class="nav-link" href="#faqs">FAQS</a>
+                      </li>
+                      <li class="nav-item mx-5">
+                        <button type="button" class="btn btn-color">Login</button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        <section class="container pb-5">
+            <div class="row gy-5">
+                <div class="col-lg-6 col-sm-12 text-white d-flex align-items-center">
+                    <div>
+                        <p class="header-p">Computer-controlled digital transistorized with electronic advance</p>
+                        <h1 class="fw-bold my-4 header_size">Honda CBR 300R</h1>
+                        <p style="width: 400px;" class="header-p">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button type="button" class="btn btn-color px-4">Purchase</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="images/header-bike.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+      <section class="container" id="fetured_bikes">
+        <div class="row py-5 text-center">
+            <h2 class="header_size fw-bold ">Fetured Bikes 2021</h2>
+        </div>
+        <div class="row justify-content-between py-5 gy-5">
+          <div class="col-lg-3 col-md-6 col-sm-12"><img class="img-fluid grayscal" src="images/feature-bike.jpg" alt=""></img></div>
+          <div class="col-lg-3 col-md-6 col-sm-12"><img class="img-fluid" src="images/feature-bike.jpg" alt=""></img></div>
+          <div class="col-lg-3 col-md-6 col-sm-12"><img class="img-fluid grayscal" src="images/feature-bike.jpg" alt=""></img></div>
+        </div>
+      </section>
+
+      <!-- Latest News  -->
+      <section class="container my-5" id="latest_news">
+        <div class="row text-center py-5">
+          <h1 class="header_size fw-bold">Latest News</h1>
+        </div>
+        <div class="row py-2 gy-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/bike-1.png" class="card-img-top p-4" alt="...">
+              <div class="card-body">
+                <h5 class="card-title card_title_custom">Ducati XDIAVEL S-73</h5>
+                <p class="card-text client_P">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-color">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/bike-2.png" class="card-img-top p-4" alt="...">
+              <div class="card-body">
+                <h5 class="card-title card_title_custom">Motorcycles & Scooters</h5>
+                <p class="card-text client_P">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-color">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/bike-3.png" class="card-img-top p-4" alt="...">
+              <div class="card-body">
+                <h5 class="card-title card_title_custom">2021 Honda CBR500R</h5>
+                <p class="card-text client_P">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-color">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Happy Clients Says  -->
+      <section class="container my-5">
+        <div class="row text-center py-5">
+          <h1 class="header_size fw-bold">Happy <span class="color_happy">Clients Says</span></h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 gy-4">
+            <div class="card text-center">
+              <div>
+                <img src="images/user-1.png" class="card-img-top rounded-circle p-5 card_img" alt="...">
+              </div>
+              <div class="card-body">
+                <p class="card-text px-5 client_P">Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                  <div>
+                    <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star empty"></i>
+                  </div>
+                  <p>Regina Miles</p>
+                  <p class="fw-bold">Banker</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 gy-4">
+            <div class="card text-center justify-content-center">
+              <div>
+                <img src="images/user-2.png" class="card-img-top rounded-circle p-5 card_img" alt="...">
+              </div>
+              <div class="card-body">
+                <p class="card-text px-5 client_P">Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                  <div>
+                    <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star empty"></i>
+                  </div>
+                  <p>Regina Miles</p>
+                  <p class="fw-bold">Banker</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 gy-4">
+            <div class="card text-center justify-content-center">
+              <div>
+                <img src="images/user-3.jpg" class="card-img-top rounded-circle p-5 card_img" alt="...">
+              </div>
+              <div class="card-body">
+                <p class="card-text px-5 client_P">Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                  <div>
+                    <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star empty"></i>
+                  </div>
+                  <p>Regina Miles</p>
+                  <p class="fw-bold">Banker</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="container my-5" id="faqs">
+        <div class="row text-center py-5">
+          <h1 class="header_size fw-bold">Frequently Asked  <span class="color_happy">Questions</span></h1>
+        </div>
+        <div class="row gx-5 d-flex justify-content-between">
+          <div class="col-md-5 col-sm-12">
+            <img src="images/faq.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-6 col-sm-12 gy-3">
+
+            <div class="">
+              <div class="card card-body mb-4 ">
+                <div class="d-flex">
+                  <h4>What are the most important things I should know about riding a bike?</h4>
+                <i class="fas fa-angle-down fa-2x" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></i>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <div class="client_P">
+                    Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card card-body mb-4">
+                <div class="d-flex">
+                  <h4>What are the most important things I should know about riding a bike?</h4>
+                  <i class="fas fa-angle-down fa-2x" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"></i>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                  <div class="client_P">
+                    Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="card card-body mb-4">
+                <div class="d-flex">
+                  <h4>What are the most important things I should know about riding a bike?</h4>
+                  <i class="fas fa-angle-down fa-2x" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"></i>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                  <div class="client_P">
+                    Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer start -->
+    <footer style="background-color: #0b0d17;">
+      <section class="container py-5 ">
+         <div class="row d-flex justify-content-between">
+          <div class="col-lg-4 col-sm-12 footer_menu py-3">
+            <div class="py-3">
+              <a href="" class="me-3">Download Now</a><a href="" class="me-3">Licence</a>
+            </div>
+            <div class="py-3">
+              <a href="" class="me-3">Home</a><a href="" class="me-3">features</a><a href="" class="me-3">Pricing</a><a href="" class="me-3">Career</a><a href="" class="me-3">help</a>
+            </div>
+            <p class="text-white fw-light">&copy;2021 bike,All rights reserved</p>
+          </div>
+          <div class="col-lg-2 col-sm-12">
+              <img src="images/footer-1.ico" class="img-fluid footer-img-1" alt="">
+              <img src="images/footer-2.ico" class="img-fluid footer-img-2" alt="">
+          </div>
+         </div>
+      </section>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
